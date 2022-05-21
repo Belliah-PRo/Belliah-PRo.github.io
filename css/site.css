@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    text-align: center;
+    background-color: rgb(13, 49, 212);
+
+}
+p{
+    color: blueviolet;
+}
+
+img {
+    width: 229px;
+    height: 196px;
+    border-radius: 15px;
+    
+}
