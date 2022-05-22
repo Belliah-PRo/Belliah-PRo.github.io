@@ -16,6 +16,11 @@ img {
     
 }
 
-#timelapse {
+#description {
     color: white;
 }
+
+h2 {
+   color: aqua; 
+}
+
