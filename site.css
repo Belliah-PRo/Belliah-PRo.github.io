@@ -1,11 +1,10 @@
 body {
-    background-color: black;
+    background: url(./images/pexels-guillaume-meurice-2873671.jpg) repeat;
+    background-repeat: initial;
 }
 h1 {
     color: white;
     text-align: center;
-    background-color: rgb(13, 49, 212);
-
 }
 
 
