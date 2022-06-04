@@ -14,16 +14,19 @@ h1 {
 #timelapse img {
     width: 229px;
     height: 196px;
-    float:left;
     padding: 0 30px 30px 0;
-    
+    position: relative;
+
+   
     
 }
 
 #description {
-    color: white;
+    color: rgb(255, 255, 255);
     font-style: italic;
     font-size: 20px;
+    display: inline-block;
+   
 
 }
 
@@ -34,7 +37,19 @@ h2 {
 #gaming img {
     width: 229px;
     height: 196px;
-    float:right;
+    padding: 0 30px 30px 0;
+    position: relative;
     
 }
-
+#gaming {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+}
+#greenpi {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+}
