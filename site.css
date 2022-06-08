@@ -15,17 +15,17 @@ h1 {
     width: 229px;
     height: 196px;
     padding: 0 30px 30px 0;
-    position: relative;
+    float:left;
 
    
     
 }
 
 #description {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     font-style: italic;
     font-size: 20px;
-    display: inline-block;
+
    
 
 }
@@ -38,18 +38,36 @@ h2 {
     width: 229px;
     height: 196px;
     padding: 0 30px 30px 0;
-    position: relative;
+    float:left;
     
 }
 #gaming {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 248, 227);
     font-style: italic;
     font-size: 20px;
-    display: inline-block;
 }
+
+
+#greenpi img {
+    width: 229px;
+    height: 196px;
+    padding: 0 30px 30px 0;
+    float:left;
+}
+
 #greenpi {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 238, 0);
     font-style: italic;
     font-size: 20px;
-    display: inline-block;
+    
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 0;
+    gap: 10px;
+    
+    
+    
+  }
