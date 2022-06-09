@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 70px;
     background-color: black; opacity: 85%;
     border-radius: 50px;
 
@@ -75,7 +75,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-column: 0;
-    gap: 10px;  
+    gap: 35px;  
   }
 
 .iframe-container {
