@@ -69,8 +69,12 @@ h2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-column: 0;
-    gap: 10px;
-    
-    
-    
+    gap: 10px;  
+  }
+
+.iframe-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px; 
+    place-self: center;
   }
