@@ -5,11 +5,15 @@ body {
     background-repeat: no-repeat;
 }
 
-h1 {
-    color: white;
-    text-align: center;
-}
+#belliah-galaxy { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: black; opacity: 85%;
+    border-radius: 50px;
 
+}
 
 #timelapse img {
     width: 229px;
