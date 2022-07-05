@@ -15,17 +15,13 @@ body {
 
 }
 
-#timelapse img {
-    width: 229px;
-    height: 196px;
+.timelapse img,.gaming img, .greenpi img  {
     padding: 0 30px 30px 0;
     float:left;
 
-   
-    
 }
 
-#description {
+.description {
     color: rgb(255, 255, 255);
     font-style: italic;
     font-weight: bold;
@@ -41,29 +37,14 @@ h2 {
    
 }
 
-#gaming img {
-    width: 229px;
-    height: 196px;
-    padding: 0 30px 30px 0;
-    float:left;
-    
-}
-#gaming {
+.gaming {
     color: rgb(255, 255, 255);
     font-style: italic;
     font-weight: bold;
     font-size: 20px;
 }
 
-
-#greenpi img {
-    width: 229px;
-    height: 196px;
-    padding: 0 30px 30px 0;
-    float:left;
-}
-
-#greenpi {
+.greenpi {
     color: rgb(255, 255, 255);
     font-style: italic;
     font-weight: bold;
