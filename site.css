@@ -22,13 +22,12 @@ body {
 
 }
 
-.description {
+.description, .gaming1, .greenpi1 {
     color: rgb(255, 255, 255);
     font-style: italic;
     font-weight: bold;
     font-size: 20px;
-
-   
+    width: 85%;
 
 }
 
@@ -36,21 +35,6 @@ h2 {
    color: white;
    text-align: center;
    
-}
-
-.gaming {
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.greenpi {
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    font-weight: bold;
-    font-size: 20px;
-    
 }
 
 .wrapper {
