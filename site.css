@@ -14,12 +14,29 @@ body {
     border-radius: 50px;
     margin-top: 1.5rem;
     border:2px solid green;
-
 }
+
+
+nav ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+  }
+  nav li {
+    width:10rem;
+    text-align:center;
+    margin-bottom:0.5rem;
+    display:inline-block;
+  }
+  
     /*TBRL*/
 .timelapse img,.gaming img, .greenpi img  {
     padding: 0 0px 0px 0;
     float:left;
+    border-radius: 1rem;
 
 }
 
@@ -44,6 +61,8 @@ h2 {
     grid-template-columns: 1fr;
     grid-column: 0;
     gap: 35px;  
+    width: 80%;
+    margin: 0 auto;
   }
 
 .iframe-container {
@@ -53,5 +72,4 @@ h2 {
     margin: auto;
     width: 60%;
     
-   
   }
