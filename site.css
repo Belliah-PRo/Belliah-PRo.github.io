@@ -9,11 +9,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
-    background-color: black; opacity: 85%;
-    border-radius: 50px;
-    margin-top: 1.5rem;
+    background-color: white; opacity: 85%;
+    margin-top: 1.5rem auto;
+    padding: 0;
     border:2px solid green;
+  
+    
+
 }
 
     /*Navigation Bar Start*/
