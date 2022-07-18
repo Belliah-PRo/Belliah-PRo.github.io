@@ -5,16 +5,17 @@ body {
     background-repeat: no-repeat;
 }
 
-#belliah-galaxy { 
-    display: flex;
-    justify-content: center;
-    background-color: white; opacity: 85%;
-    margin-top: 0.5rem;
-    margin-left: 12em;
-    margin-bottom: -4.4rem;
-    padding: -20rem;
-    border:0px solid green;
-    width: 25%;
+#demo-text { 
+  font-size: 55px;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+  background-color: white;
+  border: 5px green;
+	color: transparent;
+	background-image: url(https://i.postimg.cc/ZqPNJCV8/textbackground.png);
+  margin-left: 12rem;
+  margin-bottom: -4rem;
   
 }
 
@@ -22,7 +23,8 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   display: flex;
   color: white;
-  margin-left: 42rem;
+  margin-left: 45rem;
+  margin-bottom:0.5rem;
   padding: -15rem;
 
 }
