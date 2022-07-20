@@ -5,17 +5,27 @@ body {
     background-repeat: no-repeat;
 }
 
+
+header {
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 11.9rem;
+  margin-bottom: -4rem;
+}
+
+
 #demo-text { 
-  font-size: 55px;
+  font-size: 45px;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
-  background-color: white;
   border: 5px green;
 	color: transparent;
 	background-image: url(https://i.postimg.cc/ZqPNJCV8/textbackground.png);
-  margin-left: 12rem;
+  margin-left: 0rem;
   margin-bottom: -4rem;
+  display: inline-block;
   
 }
 
@@ -23,9 +33,9 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   display: flex;
   color: white;
-  margin-left: 45rem;
+  margin-left: 38rem;
   margin-bottom:0.5rem;
-  padding: -15rem;
+  margin-top: -2.0rem;
 
 }
     /*Navigation Bar Start*/
