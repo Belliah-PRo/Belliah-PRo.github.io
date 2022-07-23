@@ -3,6 +3,8 @@ body {
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
     /*Header Starts here*/
@@ -78,9 +80,9 @@ nav ul {
     font-style: italic;
     font-weight: bold;
     font-size: 20px;
-    width: 40%;
+    width: 35%;
     margin-left:12em;
-    margin-top: 2.5em;
+    margin-top: 1.8em;
     background-color: black;
     opacity: 75%;
     border-radius: 0.5rem;
@@ -99,7 +101,7 @@ h2 {
     gap: 35px;  
     width: 80%;
     margin: 0 auto;
-    margin-top: 10em;
+    margin-top: 3em;
   }
 
 .iframe-container {
