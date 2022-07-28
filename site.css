@@ -68,6 +68,32 @@ nav ul {
   
     /*Navigation Bar End*/
     /*TBRL- "top""bottom"right"left"*/
+    /*Navigation Bar Rising Stars Start*/
+    .RS h1 {
+      border:0px solid green;
+      width:6.6%;
+      margin-left:-3.5rem;
+      margin-top:1rem;
+      background-color:#F2C84B;
+      font-size:20px;
+      border-radius: 2px;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding:0;
+      margin:1rem 0rem 0rem -9.5rem;
+      margin-left:-7.7rem;
+      display:flex;
+      flex-flow:row nowrap;
+      justify-content:start;
+    }
+    li {
+      border:0px solid blue;
+      flex-basis: 1%;
+    }
+    /*Navigation Bar Rising Stars End*/
+    
 .timelapse img,.gaming img, .greenpi img  {
     padding: 0 0px 0px 0;
     float:left;
@@ -101,7 +127,7 @@ h2 {
     gap: 35px;  
     width: 80%;
     margin: 0 auto;
-    margin-top: 3em;
+    margin-top: -12rem;
   }
 
 .iframe-container {
