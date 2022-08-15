@@ -144,7 +144,7 @@ h2 {
 }
 
 /*timelapses grid starts*/
-.iframe-container {
+.youtubevideos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px; 
