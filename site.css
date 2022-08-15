@@ -149,7 +149,61 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px; 
     margin: auto;
-    padding:5rem;
+    padding:9rem;
     width: 60%;
   }
 /*timelapses grid ends*/
+/*timelapses navigation bar starts*/
+.navtime{
+  margin-top:1rem;
+  margin-right:10rem;
+  margin-bottom:-4rem; 
+}
+
+.navtime{
+  border: 0px solid black;
+  margin-top:0rem;
+  margin-right:6rem;
+  width:75.4em;
+  height:4rem;
+  box-sizing: border-box;
+}
+.navtime ul {
+  list-style-type:none;
+  border:0px dotted blue;
+  padding:0rem;
+  margin-top:-2rem;
+  width:75em;
+  height:5em;
+  box-sizing: border-box;
+  
+}
+.navtime li {
+  border: 3px solid white;
+  background-color:#6A8DC2;
+  text-align:center;
+  margin-bottom:1rem;
+  margin-top:2rem;
+  margin-left:14em;
+  margin-right: -9.2rem;
+  padding:0;
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content:center;
+  flex-basis: 10%;
+}
+.navtime a {
+  border:5px white;
+  width: 7.2em;
+  height: 20px;
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+  display: block;
+  padding: 0.2em;
+}
+.navtime a:hover {
+  background-color: white;
+  color:black;
+}
+/*timelapses navigation bar ends*/
