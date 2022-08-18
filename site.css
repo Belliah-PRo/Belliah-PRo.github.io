@@ -25,7 +25,7 @@ header {
 	color: transparent;
 	background-image: url(https://i.postimg.cc/ZqPNJCV8/textbackground.png);
   margin-left: 0rem;
-  margin-bottom: -4rem;
+  margin-bottom: -2rem;
   display: inline-block;
   
 }
@@ -44,7 +44,7 @@ h1 {
 nav ul {
     list-style-type:none;
     padding:0;
-    margin:0.5rem auto;
+    margin:0.2rem auto;
     display:flex;
     flex-flow:row nowrap;
     justify-content:space-around;
@@ -66,43 +66,53 @@ nav ul {
   }
   
     /*Navigation Bar End*/
-    /*TBRL- "top""bottom"right"left"*/
-    /*Navigation Bar Rising Stars Start*/
-    .RS h1 {
-      border:0px solid green;
-      width:6.6%;
-      margin-left:-3.5rem;
-      margin-top:1rem;
-      background-color:#F2C84B;
-      font-size:20px;
-      border-radius: 2px;
+    /*article starts*/
+    .floatleft {
+      float: left;
+      border:0px solid red;
+      /*TRBL*/
+      margin:1 auto;
+      margin-bottom:0rem;
+      margin-top: -6rem;
+      margin-left: -3rem;
+      padding: 0rem;
+      
+      
     }
     
-    .RS ul {
-      list-style-type: none;
-      padding:0;
-      margin:0.8rem;
-      margin-left:-7.7rem;
-      display:flex;
-      flex-flow:row nowrap;
-      justify-content:start;
-      box-shadow: 3px 8px 9px 3px #B3C3F2;
-      width:15.5%;
+    article {
+      width: 30rem;
+      height: 9rem;
+      border:0px solid red;
+      margin: 0 auto;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      margin-left: 38rem;
+      background-color: #D4E3F9;
+      display:block;
+      border-radius: 6%;
+      padding: 20px;
+      float: left;
+      
+     
     }
-
-    .RS a:hover {
-      background-color: red;
+    
+    article:after {
+        content: "";
+        display: table;
+        clear: both; 
+        
+    
     }
-    li {
-      border:0px solid blue;
-      flex-basis: 1%;
-    }
-    /*Navigation Bar Rising Stars End*/
+    /*article End*/
+    /*TBRL- "top""bottom"right"left"*/
+    
     
 .timelapse img,.gaming img, .greenpi img  {
     padding: 0 0px 0px 0;
     float:left;
     border-radius: 1rem;
+    
 
 }
 
@@ -126,8 +136,61 @@ nav ul {
   width: 80%;
   margin: 0 auto;
   margin-top: -12rem;
+  padding: 2rem;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+/*Navigation Bar Rising Stars Start*/
+.RS h1 {
+  border:1px solid yellow;
+  width:5.5%;
+  margin:-1.5rem auto;
+  margin-bottom:2rem;
+  background-color:#D4E3F9;
+  font-size:20px;
+  text-align:center;
+  color: black;
 }
 
+ul {
+  list-style-type: none;
+  padding:0rem;
+  margin-right:-26em;
+  margin-left:26.2rem;
+  display:inline-block;
+  flex-flow:row nowrap;
+  justify-content: center;
+  border: 0px solid black;
+  
+  
+}
+li {
+  border:0px solid blue;
+  flex-basis: 10%;
+  display:inline-block;
+  
+   
+
+}
+
+.RS a:hover {
+  background-color: red;
+  
+  
+}
+/*Navigation Bar Rising Stars End*/
+/*Copyrights starts*/
+.copyrights {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0rem;
+  margin-top: 8rem;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 84.3%;
+  color: white;
+}
+/*Copyrights ends*/
 /*Timelapses Title starts*/
 h2 {
   color: white;
@@ -184,7 +247,7 @@ h2 {
   text-align:center;
   margin-bottom:1rem;
   margin-top:2rem;
-  margin-left:14em;
+  margin-left:25.5em;
   margin-right: -9.2rem;
   padding:0;
   display:flex;
