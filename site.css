@@ -34,7 +34,7 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   display: flex;
   color: white;
-  margin-left: 38rem;
+  margin-left: 35rem;
   margin-bottom:0.5rem;
   margin-top: -2.0rem;
 
@@ -89,7 +89,7 @@ nav ul {
       margin-bottom: 5rem;
       margin-left: 38rem;
       background-color: #D4E3F9;
-      display:block;
+      display:flex;
       border-radius: 6%;
       padding: 20px;
       float: left;
@@ -270,3 +270,28 @@ h2 {
   color:black;
 }
 /*timelapses navigation bar ends*/
+
+@media (min-width:850px) {}
+  nav {
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+header {
+  max-width:1200px;
+    margin:0 auto;
+    
+}
+
+h1 {
+  max-width:1200px;
+    margin:0 auto;
+}
+
+article {
+  max-width:1200px;
+    margin:0 auto;
+    margin-top: 5rem;
+    margin-left:35rem;
+    display: flex;
+}
