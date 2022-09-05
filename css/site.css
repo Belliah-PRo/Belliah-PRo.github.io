@@ -16,6 +16,8 @@
   --red:#E65771;
   --grey:#626469;
   --yellow:#F2B90F;
+  --gold:#CD950C;
+  --blue:#000033;
 }
 /* border box model: https://css-tricks.com/box-sizing/ */
 html {
@@ -79,7 +81,8 @@ nav [class*="fa-"]:hover {
  color: var(--yellow);
 }
 h1, h2, h3 {
-margin:0; 
+margin:0;
+color: var(--yellow); 
 }
 a {
 color: var(--magenta);
@@ -104,6 +107,12 @@ background-color: var(--black);
 
 }
 /*background color divs */
+.section-blue {
+  background-color: var(--blue);
+}
+.section-gold {
+  background-color: var(--gold);
+}
 .section-yellow {
   background-color: var(--yellow);
 }
