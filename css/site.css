@@ -18,10 +18,12 @@
   --yellow:#F2B90F;
   --gold:#CD950C;
   --blue:#000033;
+  --greylight:#B8BFC2;
 }
 /* border box model: https://css-tricks.com/box-sizing/ */
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 *,
 *::before,
@@ -29,12 +31,14 @@ html {
   box-sizing: inherit;
 }
 body{
+  min-height: 100%;
 padding:0;
 margin:0;
 font-family: var(--sans);
 background-color: var(--black);
 color: var(--white);
 font-size: var(--font-size)
+
 }
 /* NavBar */
 nav {
@@ -107,6 +111,12 @@ background-color: var(--black);
 
 }
 /*background color divs */
+.section-greylight {
+  background-color: var(--greylight);
+}
+.section-white {
+  background-color: var(--white);
+}
 .section-blue {
   background-color: var(--blue);
 }
@@ -258,6 +268,38 @@ padding:1rem;
   padding:0.2rem;
   }
 
+/*Timelapse page*/
+
+.TimelapseN {
+  font-family: var(--mono);
+  font-size:80%;
+  padding: 1rem;
+  margin-bottom:0rem;
+  }
+#projects-t{
+  padding:15.6rem 1rem;
+  
+  } 
+  
+  #projects-t h2 {
+  font-size:1.7rem;
+  margin-bottom: calc(2.5rem *1.5);
+  color: var(--blue);
+  }
+  .blackbox-t {
+  padding:1rem;
+  line-height:1.5;
+  color: var(--black);
+  font-size:1rem;
+  display:block;
+  font-weight: bold;
+  }
+#google {
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom:0rem;
+}
+/*Timelapse page end*/
 @media (min-width: 550px) {
 article {
   display:grid;
@@ -308,4 +350,37 @@ nav li:first-child {
   flex-basis: auto;
   text-align:left;
   
+}
+
+/*Timelapse page media*/
+@media (min-width: 550px) {
+.timelapseA {
+  display:grid;
+  grid-template-columns: repeat(10,1fr);
+  gap:1rem; 
+}
+#projects-t {
+  max-width: 1200px;
+  margin:0 auto;
+}
+.text-t {  
+  grid-column:1/11;
+  grid-row:1/2;
+text-align:left;
+}
+
+@media (min-width:850px){
+  .TimelapseN {
+    max-width:1200px;
+    margin:0 auto;
+}
+  }
+  .TimelapseN li:first-child {
+    flex-basis: auto;
+    text-align:left;
+  }
+}
+#google {
+  max-width: 1200px;
+  margin:0 auto;
 }
