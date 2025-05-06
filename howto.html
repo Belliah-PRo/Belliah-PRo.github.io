@@ -1,26 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How To</title>
-    <link href="css/site.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How To</title>
+  <link href="css/site.css" rel="stylesheet" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .section-yellow {
+      background-color: (--yellow); /* or your original yellow */
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    #google_translate_element {
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-    <nav>
+
+  <!-- Header Section -->
+  <div class="section-blue">
+    <nav class="TimelapseN">
       <ul>
-        <li>
-      <h1>How To</h1>
-        </li>
-        <a href="timelapses.html"><img src="https://i.postimg.cc/NLhCqbN1/mainpage.png"></img>
-       </a></div>
+        <li><h1>How To</h1></li>
+        <a href="timelapses.html">
+          <img src="https://i.postimg.cc/NLhCqbN1/mainpage.png" alt="Main Page" />
+        </a>
+      </ul>
     </nav>
+  </div>
 
+  <!-- Main Content Section -->
+  <main class="section-greylight">
+    <section>
+      <h2 style="text-align:center;">How to Do a Timelapse & Hyperlapse in 5 Simple Steps</h2>
 
+      <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; padding: 1rem;">
+        <div class="card" style="border: 2px solid #074475; border-radius: 12px; padding: 1.5rem; background-color: #05104d;">
+          <div class="title" style="font-size: 1.5rem; margin-bottom: 1rem;">📸 Timelapse (Stationary Camera)</div>
+          <ol>
+            <li><strong>Set Up Your Camera:</strong> Use a tripod or stable surface.</li>
+            <li><strong>Choose Your Subject:</strong> Pick scenes that change over time.</li>
+            <li><strong>Select Interval & Duration:</strong> Set shot intervals (e.g., every 5 sec).</li>
+            <li><strong>Start & Wait:</strong> Let the camera run undisturbed.</li>
+            <li><strong>Edit & Export:</strong> Use an app or software to compile and speed up.</li>
+          </ol>
+        </div>
 
+        <div class="card" style="border: 2px solid #074475; border-radius: 12px; padding: 1.5rem; background-color: #05104d">
+          <div class="title" style="font-size: 1.5rem; margin-bottom: 1rem;">🚶‍♂️ Hyperlapse (Moving Camera)</div>
+          <ol>
+            <li><strong>Plan Your Path:</strong> Choose a smooth, repeatable route.</li>
+            <li><strong>Use Stabilization:</strong> Gimbals or steady hands help a lot.</li>
+            <li><strong>Shoot at Intervals:</strong> Take photos every few steps or record video.</li>
+            <li><strong>Keep Framing Consistent:</strong> Stay focused on a central subject.</li>
+            <li><strong>Edit & Stabilize:</strong> Use editing tools for speed and smoothness.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
 
-
+  <!-- Google Translate Section (Bottom) -->
+  <div class="section-yellow">
+    <section id="google">
+      <div id="google_translate_element"></div>
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+      </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </section>
+  </div>
 
 </body>
 </html>
