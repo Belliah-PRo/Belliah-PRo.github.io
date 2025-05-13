@@ -6,6 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About</title>
   <link href="css/site.css" rel="stylesheet">
+  <style>
+    /* Color-themed table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    table thead {
+      background-color: #007BFF;
+      color: rgb(255, 255, 255);
+    }
+
+    table th, table td {
+      padding: 0.85em;
+      border: 1px solid #ddd;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    table tbody tr:nth-child(even) {
+      background-color: #ca0707e1;
+    }
+
+    table tbody tr:nth-child(odd) {
+      background-color: #ca0707e1;
+    }
+
+    table tbody tr:hover {
+      background-color: #000000;
+    }
+  </style>
 </head>
 <body>
   <div class="section-blue">
@@ -57,22 +91,22 @@
           </thead>
           <tbody>
             <tr>
-              <td>Camera Movement</td>
+              <td><strong>Camera Movement</strong></td>
               <td>Stationary (or slight pan)</td>
               <td>Moves significantly between shots</td>
             </tr>
             <tr>
-              <td>Setup Complexity</td>
+              <td><strong>Setup Complexity</strong></td>
               <td>Relatively simple</td>
               <td>More complex, requires stabilization</td>
             </tr>
             <tr>
-              <td>Visual Effect</td>
+              <td><strong>Visual Effect</strong></td>
               <td>Time compression only</td>
               <td>Time + spatial motion</td>
             </tr>
             <tr>
-              <td>Common Use</td>
+              <td><strong>Common Use</strong></td>
               <td>Skies, plants, crowds</td>
               <td>Travel shots, architecture tours</td>
             </tr>
@@ -93,7 +127,6 @@
 
   <div class="section-yellow">
     <section id="google">
-      
       <div id="google_translate_element"></div>
       <script type="text/javascript">
         function googleTranslateElementInit() {
@@ -103,6 +136,5 @@
       <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </section>
   </div>
-
 </body>
 </html>
