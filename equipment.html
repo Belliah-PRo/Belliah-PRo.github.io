@@ -6,6 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Equipment</title>
   <link href="css/site.css" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .section-yellow {
+      background-color: (--yellow); /* or your original yellow */
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    #google_translate_element {
+      text-align: center;
+    }
+
+    .equipment-section {
+      padding: 0rem;
+      background-color: "section-greylight";
+    }
+
+    .equipment-section h2 {
+      text-align: center;
+      color: #1013c2;
+    }
+
+    .equipment-section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .equipment-section li {
+      margin-bottom: 3rem;
+    }
+
+    .equipment-section a {
+      color: #074475;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .equipment-section a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -19,23 +70,61 @@
     </ul>
   </nav>
 
-  <!-- Equipment Section -->
-  <main style="padding: 2rem;">
-    <section style="max-width: 1000px; margin: auto; color: #000;">
-      <h2 style="text-align:center;">🎒 Recommended Equipment for Timelapse & Hyperlapse (UK)</h2>
-      <ul>
-        <li><strong>Camera:</strong> Canon EOS R50 Kit – approx. £730<br><em>Search: "Canon EOS R50 Mirrorless Camera with RF-S 18-45mm Lens Kit"</em></li>
-        <li><strong>Tripod:</strong> K&F Concept Lightweight Tripod – approx. £45<br><em>Search: "K&F Concept Lightweight Tripod for DSLR"</em></li>
-        <li><strong>ND Filter:</strong> K&F Variable ND2-ND32 (match your lens thread) – £35<br><em>Search: "K&F Concept Variable ND Filter 67mm"</em></li>
-        <li><strong>Intervalometer:</strong> Neewer/JJC Timer Remote – £20<br><em>Search: "Neewer Intervalometer Timer Remote"</em></li>
-        <li><strong>Memory Card:</strong> SanDisk Extreme Pro 128GB – £25<br><em>Search: "SanDisk Extreme Pro SDXC 128GB"</em></li>
-        <li><strong>Extra Batteries:</strong> Wasabi Power LP-E17 (or model-specific) – £25</li>
-        <li><strong>Optional Gimbal:</strong> DJI RS 3 Mini – £319<br><em>Search: "DJI RS 3 Mini Gimbal Stabilizer"</em></li>
-      </ul>
-    </section>
+  <main class="equipment-section">
+    <div class="section-greylight">
+    <h2>🎒 Starter Budget Kit for Timelapse & Hyperlapse (UK)</h2>
+
+    <h3>📸 Camera</h3>
+    <ul>
+      <li>
+        <a href="https://www.amazon.co.uk/ZMOQNG-Digital-Camera-64MP-Autofocus/dp/B0DRYMJS4B" target="_blank">
+          ZMOQNG Digital Camera 4K 64MP Autofocus with 32GB Card
+        </a> – Approx. £80<br />
+        Compact 4K camera with autofocus, SD card included, standard tripod mount compatible.
+      </li>
+    </ul>
+
+    <h3>🦵 Tripods</h3>
+    <ul>
+      <li>
+        <a href="https://www.amazon.co.uk/AmazonBasics-60-Inch-Lightweight-Tripod-Capacity/dp/B005KP473Q" target="_blank">
+          Amazon Basics 60-Inch Lightweight Tripod
+        </a> – Approx. £25<br />
+        Lightweight, portable, 1/4"-20 mount for cameras up to 3kg.
+      </li>
+      <li>
+        <a href="https://www.amazon.co.uk/Joby-JB01507-BWW-GorillaPod-Lightweight-Mirrorless/dp/B074WC9YKL" target="_blank">
+          JOBY GorillaPod 3K Kit
+        </a> – Approx. £65<br />
+        Flexible legs, ideal for creative angles, supports up to 3kg.
+      </li>
+    </ul>
+
+    <h3>🎥 Gimbal (For Smartphones)</h3>
+    <ul>
+      <li>
+        <a href="https://www.amazon.co.uk/DJI-Smartphone-Stabilizer-Extension-ShotGuides/dp/B0B7XD7R43" target="_blank">
+          DJI Osmo Mobile 6 Smartphone Gimbal
+        </a> – Approx. £145<br />
+        Compact 3-axis gimbal, perfect for hyperlapse with smartphones.
+      </li>
+    </ul>
+
+    <h3>✔ Compatibility Summary</h3>
+    <ul>
+      <li>
+        ZMOQNG camera works with both tripods via the universal 1/4"-20 screw.
+      </li>
+      <li>
+        DJI Osmo Mobile 6 is ideal for smartphone users doing hyperlapse photography.
+      </li>
+    </ul>
+    ,
+    
   </main>
-  <!-- End Section -->
-   <!-- Google Translate Section (Bottom) -->
+</div>
+
+  <!-- Google Translate Section (Bottom) -->
   <div class="section-yellow">
     <section id="google">
       <div id="google_translate_element"></div>
